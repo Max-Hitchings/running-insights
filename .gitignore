@@ -1,0 +1,25 @@
+# Personal Garmin data and generated analysis outputs
+/data/
+/outputs/
+*.fit
+*.fit.gz
+*.tcx
+*.gpx
+*.gpx.gz
+
+# Local credentials and environment settings
+.env
+.env.*
+!.env.example
+
+# Python environments, caches, and notebook state
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+
+# OS files
+.DS_Store
